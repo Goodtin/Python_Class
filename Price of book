@@ -1,0 +1,72 @@
+{
+  "nbformat": 4,
+  "nbformat_minor": 0,
+  "metadata": {
+    "colab": {
+      "name": "Untitled11.ipynb",
+      "provenance": [],
+      "authorship_tag": "ABX9TyNloE9kX8AYU5iu5WHinU61",
+      "include_colab_link": true
+    },
+    "kernelspec": {
+      "name": "python3",
+      "display_name": "Python 3"
+    },
+    "language_info": {
+      "name": "python"
+    }
+  },
+  "cells": [
+    {
+      "cell_type": "markdown",
+      "metadata": {
+        "id": "view-in-github",
+        "colab_type": "text"
+      },
+      "source": [
+        "<a href=\"https://colab.research.google.com/github/Goodtin/Python_Class/blob/main/Price%20of%20book\" target=\"_parent\"><img src=\"https://colab.research.google.com/assets/colab-badge.svg\" alt=\"Open In Colab\"/></a>"
+      ]
+    },
+    {
+      "cell_type": "code",
+      "execution_count": 25,
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "TTbxwbtui8OB",
+        "outputId": "35960d3f-b10b-4b6a-f929-e961612cded7"
+      },
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "the price for 60 books plus shipping and disc is: \n",
+            "total book price is:898.1999999999999\n",
+            "shipping total is:47.25\n",
+            "the total price is:945.4499999999999\n"
+          ]
+        }
+      ],
+      "source": [
+        "import math\n",
+        "pricebook = 24.95\n",
+        "bookdisc = .60\n",
+        "firstcopyshipcost = 3.00\n",
+        "addcopyshipcost = 0.75\n",
+        "totalsales = 60\n",
+        "\n",
+        "bookdiscamt = pricebook * bookdisc * totalsales \n",
+        "totalshipcost = addcopyshipcost * 59 + firstcopyshipcost\n",
+        "\n",
+        "result = bookdiscamt + totalshipcost\n",
+        "\n",
+        "print('the price for 60 books plus shipping and disc is: ')\n",
+        "print('total book price is:' + str(bookdiscamt))\n",
+        "print('shipping total is:' + str(totalshipcost))\n",
+        "print('the total price is:' + str(result))"
+      ]
+    }
+  ]
+}

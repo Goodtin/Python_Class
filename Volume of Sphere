@@ -1,0 +1,58 @@
+{
+  "nbformat": 4,
+  "nbformat_minor": 0,
+  "metadata": {
+    "colab": {
+      "name": "Untitled10.ipynb",
+      "provenance": [],
+      "authorship_tag": "ABX9TyNhcTsso3wnnZgm7gRRqjJh",
+      "include_colab_link": true
+    },
+    "kernelspec": {
+      "name": "python3",
+      "display_name": "Python 3"
+    },
+    "language_info": {
+      "name": "python"
+    }
+  },
+  "cells": [
+    {
+      "cell_type": "markdown",
+      "metadata": {
+        "id": "view-in-github",
+        "colab_type": "text"
+      },
+      "source": [
+        "<a href=\"https://colab.research.google.com/github/Goodtin/Python_Class/blob/main/Volume%20of%20Sphere\" target=\"_parent\"><img src=\"https://colab.research.google.com/assets/colab-badge.svg\" alt=\"Open In Colab\"/></a>"
+      ]
+    },
+    {
+      "cell_type": "code",
+      "execution_count": 2,
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "wCkGX8B_gv2l",
+        "outputId": "2f629c17-c04f-4428-dfeb-3f219614a6d9"
+      },
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "Volume_of_sphere 523.6666666666666\n"
+          ]
+        }
+      ],
+      "source": [
+        "import math\n",
+        "r = 5\n",
+        "pi = 3.142\n",
+        "V= 4.0/3.0*pi*r**3\n",
+        "print(\"Volume_of_sphere\", V)"
+      ]
+    }
+  ]
+}

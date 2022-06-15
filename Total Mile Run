@@ -1,0 +1,67 @@
+{
+  "nbformat": 4,
+  "nbformat_minor": 0,
+  "metadata": {
+    "colab": {
+      "name": "Untitled13.ipynb",
+      "provenance": [],
+      "authorship_tag": "ABX9TyOZcQbjq2zvTDE0CeJQuZyJ",
+      "include_colab_link": true
+    },
+    "kernelspec": {
+      "name": "python3",
+      "display_name": "Python 3"
+    },
+    "language_info": {
+      "name": "python"
+    }
+  },
+  "cells": [
+    {
+      "cell_type": "markdown",
+      "metadata": {
+        "id": "view-in-github",
+        "colab_type": "text"
+      },
+      "source": [
+        "<a href=\"https://colab.research.google.com/github/Goodtin/Python_Class/blob/main/Total%20Mile%20Run\" target=\"_parent\"><img src=\"https://colab.research.google.com/assets/colab-badge.svg\" alt=\"Open In Colab\"/></a>"
+      ]
+    },
+    {
+      "cell_type": "code",
+      "execution_count": 6,
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "DhXgfBb40RbP",
+        "outputId": "9b0235f0-eaa6-4874-af99-016e022d2f26"
+      },
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "7\n"
+          ]
+        }
+      ],
+      "source": [
+        "SECONDS = 1\n",
+        "MINUTES = 60 * SECONDS\n",
+        "HOURS = 60 * MINUTES\n",
+        "\n",
+        "\n",
+        "time_left_house = 6 * HOURS + 52 * MINUTES\n",
+        "\n",
+        "miles_run_at_easy_pace = 2 * (8 * MINUTES + 15 * SECONDS)\n",
+        "\n",
+        "miles_run_at_fast_pace = 3 * (7 * MINUTES + 12 * SECONDS)\n",
+        "\n",
+        "total_hour_run = miles_run_at_easy_pace + miles_run_at_fast_pace + time_left_house\n",
+        "\n",
+        "print(total_hour_run//HOURS)"
+      ]
+    }
+  ]
+}
